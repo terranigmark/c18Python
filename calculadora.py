@@ -4,16 +4,16 @@ def sumar(x, y):
     return x + y
 
 
-def restar(a, b):
-    return a - b
+def restar(x, y):
+    return x - y
 
 
-def multiplicar(a, b):
-    return a * b
+def multiplicar(x, y):
+    return x * y
 
 
-def dividir(a, b):
-    if b == 0:
+def dividir(x, y):
+    if y == 0:
         raise ValueError("No se puede dividir por cero")
-    return a / b
+    return x / y
 
